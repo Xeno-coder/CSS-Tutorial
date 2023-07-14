@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Strona startowa</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="TopBar">
+		<a href="FlexBox.html"><div class="TopBarLink">FlexBox</div></a>
+		<a href="FlexChild.html"><div class="TopBarLink">Flex Child</div></a>
+		<a href=""><div class="TopBarLink">FlexBox</div></a>
+		<a href=""><div class="TopBarLink">FlexBox</div></a>
+		
+	</div>
+
+	<div class="Container">
+		
+		<h1>Display flex</h1>
+		<h2>proper boxes amount</h2>
+		<div class="BoxContainer">
+			<div class="RedBlock">1</div>
+			<div class="RedBlock">2</div>
+			<div class="RedBlock">3</div>
+			
+		</div>
+		
+		<h2>boxes start to shrink</h2>
+		<div class="BoxContainer" style="flex-wrap: nowrap;">
+			<div class="RedBlock">1</div>
+			<div class="RedBlock">2</div>
+			<div class="RedBlock">3</div>
+			<div class="RedBlock">4</div>
+			<div class="RedBlock">5</div>
+			
+		</div>
+		
+		</div>
+
+		<div class="Container">
+		
+			<h1>Flex direction</h1>
+			<h2>flex-direction: column</h2>
+			<div class="BoxContainer" style="flex-direction: column;">
+				<div class="RedBlock">1</div>
+				<div class="RedBlock">2</div>
+				<div class="RedBlock">3</div>
+				
+			</div>
+			
+			<h2>flex-direction: column-reverse</h2>
+			<div class="BoxContainer" style="flex-direction:column-reverse;">
+				<div class="RedBlock">1</div>
+				<div class="RedBlock">2</div>
+				<div class="RedBlock">3</div>
+				
+			</div>
+			
+		</div>
+
+	<div class="Container">
+		<h1>Flex wrap</h1>
+		<h2>flex-wrap: wrap</h2>
+		<div class="BoxContainer" style="flex-wrap: wrap;">
+			<div class="RedBlock">1</div>
+			<div class="RedBlock">2</div>
+			<div class="RedBlock">3</div>
+			<div class="RedBlock">4</div>
+			
+			
+		</div>
+		
+		<h2>flex-wrap: wrap-reverse</h2>
+		<div class="BoxContainer" style="flex-wrap: wrap-reverse;">
+			<div class="RedBlock">1</div>
+			<div class="RedBlock">2</div>
+			<div class="RedBlock">3</div>
+			<div class="RedBlock">4</div>
+			
+		</div>
+		</div>
+
+		<div class="Container">
+		
+			<h1>Justify content</h1>
+			<h2>justify-content: center</h2>
+			<div class="BoxContainer" style="justify-content: center;">
+				<div class="RedBlock">1</div>
+				<div class="RedBlock">2</div>
+				
+			</div>
+			
+			<h2>justify-content: space-between</h2>
+			<div class="BoxContainer" style="justify-content: space-between;">
+				<div class="RedBlock">1</div>
+				<div class="RedBlock">2</div>
+				
+			</div>
+			
+			</div>
+
+			<div style="clear:both;"></div>
+
+			<div class="Container">
+		
+				<h1>Align items</h1>
+				<h2>align-items: flex-end</h2>
+				<div class="BoxContainer" style="align-items: flex-end;">
+					<div class="RedBlock">1</div>
+					<div class="RedBlock">2</div>
+					<div class="RedBlock">3</div>
+					
+				</div>
+				
+				<h2>align-items: center</h2>
+				<div class="BoxContainer" style="align-items: center;">
+					<div class="RedBlock">1</div>
+					<div class="RedBlock">2</div>
+					<div class="RedBlock">3</div>
+					
+				</div>
+				
+				</div>
+				<div class="Container">
+		
+					<h1>Align items</h1>
+					<h2>align-items: baseline (text)</h2>
+					<div class="BoxContainer" style="align-items: baseline;">
+						<div class="RedBlock">1</div>
+						<div class="RedBlock">2</div>
+						<div class="RedBlock">3</div>
+						
+					</div>
+					
+					<h2>align-items: stretch</h2>
+					<div class="BoxContainer" style="align-items: stretch;">
+						<div class="RedBlock" style="height: auto;">1</div>
+						<div class="RedBlock" style="height: auto;">2</div>
+						<div class="RedBlock" style="height: auto;">3</div>
+						
+					</div>
+					
+					</div>
+
+					<div class="Container">
+		
+						<h1>Align content</h1>
+						<h2>align-content: space-around</h2>
+						<div class="BoxContainer" style="align-content: space-around; flex-wrap: wrap;">
+							<div class="RedBlock">1</div>
+							<div class="RedBlock">2</div>
+							<div class="RedBlock">3</div>
+							<div class="RedBlock">4</div>
+							<div class="RedBlock">5</div>
+						</div>
+						
+						<h2>align-content: stretch</h2>
+						<div class="BoxContainer" style="align-content: stretch; flex-wrap: wrap;">
+							<div class="RedBlock" style="height: auto; width: 50px;">1</div>
+							<div class="RedBlock" style="height: auto; width: 150px;">2</div>
+							<div class="RedBlock" style="height: auto; width: 100px;">3</div>
+							<div class="RedBlock" style="height: auto; width: 50px;">4</div>
+							<div class="RedBlock" style="height: auto; width: 100px;">5</div>
+							<div class="RedBlock" style="height: auto; width: 300px;">6</div>
+							
+							
+						</div>
+						
+						</div>
+					
+						<div class="Container">
+		
+							<h1>Gaps</h1>
+							<h2>row-gap: 50px</h2>
+							<div class="BoxContainer" style="row-gap: 50px;">
+								<div class="RedBlock">1</div>
+								<div class="RedBlock">2</div>
+								<div class="RedBlock">3</div>
+								<div class="RedBlock">4</div>
+								<div class="RedBlock">5</div>
+								<div class="RedBlock">6</div>
+								
+							</div>
+							
+							<h2>column-gap: 50px</h2>
+							<div class="BoxContainer" style="column-gap: 50px;">
+								<div class="RedBlock">1</div>
+								<div class="RedBlock">2</div>
+								<div class="RedBlock">3</div>
+								<div class="RedBlock">4</div>
+								<div class="RedBlock">5</div>
+								<div class="RedBlock">6</div>
+								
+							</div>
+							
+							</div>
+				
+</body>
+</html>

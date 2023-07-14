@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+
+    background-color: #5B7C99;
+    color: #CFEBEF;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.TopBar{
+    height: 70px;
+    width: 100%;
+
+
+    background-color: #FF8C42;
+    font-size: 40px;
+
+
+    display: flex;
+    justify-content: space-around;
+}
+.TopBarLink{
+    color: #554348;
+}
+.RedBlock{
+    height: 98px;
+    width: 98px;
+
+    border: 1px solid #CFEBEF;
+    background-color: #FF8C42;
+}
+.BoxContainer{
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+
+    color: white;
+    font-size: 30px;
+    background-color: #CFEBEF;
+
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+}
+.Container{
+    text-align: center;
+
+    float: left;
+}
